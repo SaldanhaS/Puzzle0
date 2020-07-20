@@ -2,8 +2,7 @@ body{
   text-align: center;
  background-image: url("Puzzle_1bg.jpg");
 background-repeat: no-repeat;
- height: 500px;
-  position: relative;
+position: relative;
 background-size: cover;
 background-opacity: -0.6;
 }
