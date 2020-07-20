@@ -3,6 +3,7 @@ body{
  background-image: url("Puzzle_1bg.jpg");
 background-repeat: no-repeat;
 position: relative;
+  -webkit-background-size: cover;
 background-size: cover;
 background-opacity: -0.6;
 }
