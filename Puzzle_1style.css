@@ -8,7 +8,6 @@ body::before{
   z-index:-1;
   position: fixed;
    background-image: url("Puzzle_1bg.jpg");
- background-position: center center;
 background-repeat: no-repeat;
   background-size: cover;
 }
