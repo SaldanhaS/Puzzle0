@@ -11,11 +11,7 @@ body::before{
 background-repeat: no-repeat;
   background-size: cover;
 }
-body{
-  text-align: center;
- position: relative;
-background-opacity: -0.6;
-}
+
  h1{
  color: #F0FFFf;
  text-align: center;
