@@ -7,7 +7,7 @@
 <script type="text/javascript">
 function f1() {
  var a=parseInt(document.getElementById("ans").value);
- if (a==2){alert("Congrats! Right answer");}
+ if (a==6){alert("Congrats! Right answer");}
  else{alert("Oops! Wrong answer.");}
  }
 function f2(){
@@ -23,7 +23,7 @@ for (var i = 0; i < 4; i++) {
 }
 
 }
-document.getElementById("totalpetals").innerHTML= 'There are '+total+' petals around the rose. ';
+document.getElementById("totalpetals").innerHTML= 'There are '+total+' petals around the flower. ';
 
 }
 
@@ -32,8 +32,8 @@ document.getElementById("totalpetals").innerHTML= 'There are '+total+' petals ar
 <body>
 <center>
 <h1> Daisy N Clover </h1>
-<div id = "rules"><p> The rules require that you roll the dice below and then answer correctly "how many petals there are around the flower". </p>
-<p>You can repeat the procedure until you discover the secret rule of the puzzle or you can give up.
+<div id = "rules"><p> The rules require that you roll the dice below (Click on the image of the hand) and check the answer. Think of the logic and then answer correctly "how many petals there are around the flower". </p>
+<p>You can repeat the procedure until you discover the secret rule of the puzzle.
 How many throws do you need to figure out this puzzle? </p></div>
 <div id = "petalaroundtherose">
 <div id = "dicepetals" class = "aligncenter is-resized" style = "width:100%">
@@ -63,7 +63,7 @@ How many throws do you need to figure out this puzzle? </p></div>
 <div id= "quest-die" style = "display: inline-block">
 <img src = "petals/dice-0.png" width="80" height = "80" > </div>
 <div id= "quest-die" style = "display: inline-block">
-<img src = "petals/dice-1.png" width="80" height = "80"> </div>
+<img src = "petals/dice-5.png" width="80" height = "80"> </div>
 <div id= "youranswer" >
 Enter your answer: <input type = number id = ans size = 3><br><br>
 <input type = "button" value = "SUBMIT" onclick="f1()"><br><br><br><br>
