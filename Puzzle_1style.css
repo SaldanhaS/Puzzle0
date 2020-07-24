@@ -10,7 +10,6 @@ body::before{
    background-image: url("Puzzle_1bg.jpg");
 background-repeat: no-repeat;
   background-size: cover;
- background-position: center center;
 }
 body{
   text-align: center;
