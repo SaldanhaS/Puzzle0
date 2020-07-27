@@ -20,7 +20,7 @@ font-size: 90px;
 padding: 10px 50px 3px 10px;
 }
 #rules{
- color:#e9967a
+ color:#ffff00;
  text-align:center;
  font-family:Georgia;
  font-size:28px;
@@ -33,7 +33,7 @@ padding: 10px 50px 3px 10px;
 }
 
 #totalpetals{
- color: #696969;
+ color: #00ff7f;
  text-align:center;
  font-family:Georgia;
  font-size:20px;
@@ -53,7 +53,7 @@ border: 2px solid #B8860B;
   color: red;
 }
 #ddd {
- color: #DC143C;;
+ color: #ffd700;
  text-align:center;
  font-family:Georgia;
  font-size:24px;
