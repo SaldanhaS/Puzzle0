@@ -20,7 +20,7 @@ font-size: 90px;
 padding: 10px 50px 3px 10px;
 }
 #rules{
- color:#ffff00;
+ color:#00fa9a;
  text-align:center;
  font-family:Georgia;
  font-size:28px;
@@ -53,7 +53,7 @@ border: 2px solid #B8860B;
   color: red;
 }
 #ddd {
- color: #ffd700;
+ color: #00ff7f;
  text-align:center;
  font-family:Georgia;
  font-size:24px;
@@ -65,7 +65,7 @@ margin: 6px;
   padding: 10px;
 }
 #youranswer {
-color: #DC143C;
+color: #a52a2a;
  text-align:center;
  font-family:Georgia;
  font-size:28px;
