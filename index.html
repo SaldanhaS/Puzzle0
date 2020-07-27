@@ -5,11 +5,6 @@
 <title>RolldDice</title>
 <link rel="stylesheet" href="Puzzle_1style.css"/>
 <script type="text/javascript">
-function f1() {
- var a=parseInt(document.getElementById("ans").value);
- if (a==6){alert("Congrats! Right answer");}
- else{alert("Oops! Wrong answer.");}
- }
 function f2(){
 var total = 0
 for (var i = 0; i < 4; i++) { 
@@ -66,7 +61,18 @@ How many throws do you need to figure out this puzzle? </p></div>
 <img src = "petals/dice-5.png" width="80" height = "80"> </div>
 <div id= "youranswer" >
 Enter your answer: <input type = number id = ans size = 3><br><br>
-<input type = "button" value = "SUBMIT" onclick="f1()"><br><br><br><br>
+<a href="https://boshodd.github.io/stage1/" onclick="javascript:return validatePass()">
+<input type="submit" value="CONTINUE"></a><br><br><br><br><br><br><
+<script type="text/javascript">
+function validatePass(){
+    if(document.getElementById('ans').value == '2'){
+        return true;
+    }else{
+        alert('Wrong Passcode');
+        return false;
+    }
+}
+</script>
 </div>
 </center>
 </body>
